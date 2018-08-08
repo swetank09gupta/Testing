@@ -1,0 +1,68 @@
+-->Test Driven Development
+**Instead of writing functional code first and then your testing code as an afterthought, if you write it at all, you instead write your test code before your functional code.  Furthermore, you do so in very small steps – one test and a small bit of corresponding functional code at a time.  A programmer taking a TDD approach refuses to write a new function until there is first a test that fails because that function isn’t present. In fact, they refuse to add even a single line of code until a test exists for it.  Once the test is in place they then do the work required to ensure that the test suite now passes (your new code may break several existing tests as well as the new one).  
+**There are two levels of TDD:
+Acceptance TDD (ATDD).  With ATDD you write a single acceptance test, or behavioral specification depending on your preferred terminology, and then just enough production functionality/code to fulfill that test. The goal of ATDD is to specify detailed, executable requirements for your solution on a just in time (JIT) basis. ATDD is also called Behavior Driven Development (BDD).
+Developer TDD. With developer TDD you write a single developer test, sometimes inaccurately referred to as a unit test, and then just enough production code to fulfill that test. The goal of developer TDD is to specify a detailed, executable design for your solution on a JIT basis. Developer TDD is often simply called TDD.
+
+* For acceptance TDD people will use tools such as Fitnesse or RSpec and for developer TDD agile software developers often use the xUnit family of open source tools, such as JUnit or VBUnit, although commercial tools are also viable options. Without such tools TDD is virtually impossible.
+*An interesting side effect of TDD is that you achieve 100% coverage test – every single line of code is tested – something that traditional testing doesn’t guarantee (although it does recommend it).
+*what are tests? Tests are the actual requirements specification. What ppl used to call requirements specification actually is not a requirements specification, it's a requirements model (simplified and incomplete). When we're releasing software, we're not looking at the code on one screen and the requirements document on the other screen, going through it like a checklist - instead we're running tests. Therefore, the tests are the true requirements specification.
+
+**Mocking: The substitution of components/classes/objects with by test-doubles. Used to cover the required interface towards the substituted thing on which the component/class/object under test depends. Also used to speedup tests (i.e. a fake in-memory db will be faster than a real SQL db). Also helps with design, especially decoupling, to decrease immobility and improve re-usability. Ontology: mock extends spy extends stub extends dummy extends abstract test double; fake extends abstract test double.
+
+*three of the most common types of automated tests:
+Unit tests: A single piece of code (usually an object or a function) is tested, isolated from other pieces
+Integration tests: Multiple pieces are tested together, for example testing database access code against a test database
+Acceptance tests (also called Functional tests): Automatic testing of the entire application, for example using a tool like Selenium to automatically run a browser.
+
+*TDD makes it possible to have a very high test-coverage. Test-coverage refers to the percentage of your code that is tested automatically, so a higher number is better. TDD also reduces the likelihood of having bugs in your tests, which can otherwise be difficult to track down.
+The TDD process consists of the following steps:
+
+**Start by writing a test
+-Run the test and any other tests. At this point, your newly added test should fail. If it doesn’t fail here, it might not be testing the right thing and thus has a bug in it.
+-Write the minimum amount of code required to make the test pass
+-Run the tests to check the new test passes
+-Optionally refactor your code
+-Repeat from 1
+
+**Unit Testing gives you the what. Test-Driven Development gives you the when. Behavior Driven-Development gives you the how. Although you can use each individually, you should combine them for best results as they complement each other very nicely.
+
+**One of the key things BDD addresses is implementation detail in unit tests. A common problem with poor unit tests is they rely too much on how the tested function is implemented. This means if you update the function, even without changing the inputs and outputs, you must also update the test. This is a problem because it makes doing changes tedious. Behavior-Driven Development addresses this problem by showing you how to test. You should not test implementation, but instead behavior.
+
+ex--
+suite('Counter', function() {
+  test('tick increases count to 1', function() {
+    var counter = new Counter();
+
+    counter.tick();
+
+    assert.equal(counter.count, 1);
+  });
+});
+Here we are writing the test case in mocha and checking if after calling the funtion tick, the count should be increased by 1 but for that we are using TDD and guessing the value of count will always start from 0 which should not be the case. The BDD solves that problem by concentrating on the approach rather than the development and changes the following test case like that--
+
+describe('Counter', function() {
+  it('should increase count by 1 after calling tick', function() {
+    var counter = new Counter();
+    var expectedCount = counter.count + 1;
+ 
+    counter.tick();
+ 
+    assert.equal(counter.count, expectedCount);
+  });
+});
+
+*TDD does not replace traditional testing, instead it defines a proven way to ensure effective unit testing.
+
+**JUnit is a Regression Testing Framework used by developers to implement unit testing in Java, and accelerate programming speed and increase the quality of code. JUnit Framework can be easily integrated with either of the following -
+Eclipse
+Ant
+Maven
+
+**Mocking
+A Mock object is something used for unit testing. If you have an object whose methods you want to test, and those methods depend on some other object, you create a mock of the dependency rather than an actual instance of that dependency. This allows you to test your object in isolation.
+Common Java frameworks for creating mock objects include JMock and EasyMock , Mockito (open source)
+-As an example, one common use case might be in an MVC application, where you have a DAO layer (data access objects) and a Controller that performs business logic. If you'd like to unit test the controller, and the controller has a dependency on a DAO, you can make a mock of the DAO that will return dummy objects to your controller. One thing thats important to note is that its usually the case that mock objects implement the same interface as the objects that they are mocking - this allows your code to deal with them via the interface type, as if they are instances of the real thing.
+
+
+
