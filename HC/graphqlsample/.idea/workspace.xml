@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2797d6fb-e011-4068-a346-f5e945eec770" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Sapient Projects/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sapient Projects/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sapient Projects/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sapient Projects/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sapient Projects/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sapient Projects/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sapient Projects/Sapient Projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sapient Projects/Sapient Projects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sapient Projects/out/production/Sapient Projects/com/sapient/FindPrimeNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sapient Projects/out/production/Sapient Projects/com/sapient/FindPrimeNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sapient Projects/src/com/sapient/FindPrimeNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sapient Projects/src/com/sapient/FindPrimeNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sapient Projects/src/com/sapient/PrintEvenOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sapient Projects/src/com/sapient/PrintEvenOdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Testing/Testing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/.sbtopts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/.sbtopts.debug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/KUBERNETES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/bidding-api/src/main/java/com/example/auction/bidding/api/Bid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/bidding-api/src/main/java/com/example/auction/bidding/api/BidEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/bidding-api/src/main/java/com/example/auction/bidding/api/BidResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/bidding-api/src/main/java/com/example/auction/bidding/api/BidResultStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/bidding-api/src/main/java/com/example/auction/bidding/api/BiddingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/bidding-api/src/main/java/com/example/auction/bidding/api/PlaceBid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/bidding-impl/src/main/java/Module.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/bidding-impl/src/main/java/com/example/auction/bidding/impl/Auction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/bidding-impl/src/main/java/com/example/auction/bidding/impl/AuctionCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/bidding-impl/src/main/java/com/example/auction/bidding/impl/AuctionEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/bidding-impl/src/main/java/com/example/auction/bidding/impl/AuctionEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/bidding-impl/src/main/java/com/example/auction/bidding/impl/AuctionScheduler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/bidding-impl/src/main/java/com/example/auction/bidding/impl/AuctionState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/bidding-impl/src/main/java/com/example/auction/bidding/impl/AuctionStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/bidding-impl/src/main/java/com/example/auction/bidding/impl/Bid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/bidding-impl/src/main/java/com/example/auction/bidding/impl/BidValidationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/bidding-impl/src/main/java/com/example/auction/bidding/impl/BiddingServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/bidding-impl/src/main/resources/application.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/bidding-impl/src/test/java/com/example/auction/bidding/impl/AuctionEntityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/docs/bidding-service.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/docs/item-service.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/docs/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/docs/search-service.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/docs/transaction-service.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/item-api/src/main/java/com/example/auction/item/api/DeliveryOption.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/item-api/src/main/java/com/example/auction/item/api/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/item-api/src/main/java/com/example/auction/item/api/ItemData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/item-api/src/main/java/com/example/auction/item/api/ItemEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/item-api/src/main/java/com/example/auction/item/api/ItemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/item-api/src/main/java/com/example/auction/item/api/ItemStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/item-api/src/main/java/com/example/auction/item/api/ItemSummary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/item-api/src/main/java/com/example/auction/item/api/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/item-impl/src/main/java/Module.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/item-impl/src/main/java/com/example/auction/item/impl/ItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/item-impl/src/main/java/com/example/auction/item/impl/ItemServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/item-impl/src/main/java/com/example/auction/item/impl/Mappers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/item-impl/src/main/java/com/example/auction/item/impl/PItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/item-impl/src/main/java/com/example/auction/item/impl/PItemCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/item-impl/src/main/java/com/example/auction/item/impl/PItemData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/item-impl/src/main/java/com/example/auction/item/impl/PItemEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/item-impl/src/main/java/com/example/auction/item/impl/PItemEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/item-impl/src/main/java/com/example/auction/item/impl/PItemState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/item-impl/src/main/java/com/example/auction/item/impl/PItemStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/item-impl/src/main/java/com/example/auction/item/impl/UpdateFailureException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/item-impl/src/main/java/com/example/auction/item/impl/evolutions/PItemMigration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/item-impl/src/main/resources/application.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/item-impl/src/test/java/com/example/auction/item/impl/ItemEntityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/item-impl/src/test/java/com/example/auction/item/impl/ItemRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/item-impl/src/test/java/com/example/auction/item/impl/ItemServiceImplIntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/project/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/project/plugins.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-api/src/main/java/com/example/auction/search/api/SearchItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-api/src/main/java/com/example/auction/search/api/SearchRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-api/src/main/java/com/example/auction/search/api/SearchService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/main/java/com/example/auction/search/IndexedStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/main/java/com/example/auction/search/Module.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/main/java/com/example/auction/search/impl/BrokerEventConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/main/java/com/example/auction/search/impl/IndexedStoreImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/main/java/com/example/auction/search/impl/SearchServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/main/java/com/example/elasticsearch/BooleanQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/main/java/com/example/elasticsearch/Elasticsearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/main/java/com/example/elasticsearch/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/main/java/com/example/elasticsearch/HitResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/main/java/com/example/elasticsearch/Hits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/main/java/com/example/elasticsearch/IndexedItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/main/java/com/example/elasticsearch/Match.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/main/java/com/example/elasticsearch/MatchFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/main/java/com/example/elasticsearch/MultiMatchFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/main/java/com/example/elasticsearch/Query.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/main/java/com/example/elasticsearch/QueryBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/main/java/com/example/elasticsearch/QueryRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/main/java/com/example/elasticsearch/RangeFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/main/java/com/example/elasticsearch/RangeFilterField.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/main/java/com/example/elasticsearch/RangeInt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/main/java/com/example/elasticsearch/SearchResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/main/java/com/example/elasticsearch/SortField.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/main/java/com/example/elasticsearch/UpdateIndexItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/main/resources/application.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/test/java/com/example/auction/search/TestModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/test/java/com/example/auction/search/impl/ElasticsearchTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/test/java/com/example/auction/search/impl/SearchServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/test/java/com/example/core/InMemServiceLocator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/test/java/com/example/elasticsearch/ElasticsearchTestUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/search-impl/src/test/resources/application.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/security/src/main/java/com/example/auction/security/ClientSecurity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/security/src/main/java/com/example/auction/security/SecurityHeaderFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/security/src/main/java/com/example/auction/security/ServerSecurity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/security/src/main/java/com/example/auction/security/UserPrincipal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/testkit/src/main/java/com/example/testkit/Await.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/testkit/src/main/java/com/example/testkit/DoNothingTopicFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/testkit/src/main/java/com/example/testkit/ReadSideTestDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/tools/src/main/java/com/example/auction/pagination/PaginatedSequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/tools/src/main/java/com/example/core/CompletionStageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-api/src/main/java/com/example/auction/transaction/api/DeliveryInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-api/src/main/java/com/example/auction/transaction/api/PaymentEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-api/src/main/java/com/example/auction/transaction/api/PaymentInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-api/src/main/java/com/example/auction/transaction/api/PaymentInfoStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-api/src/main/java/com/example/auction/transaction/api/TransactionEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-api/src/main/java/com/example/auction/transaction/api/TransactionInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-api/src/main/java/com/example/auction/transaction/api/TransactionInfoStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-api/src/main/java/com/example/auction/transaction/api/TransactionMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-api/src/main/java/com/example/auction/transaction/api/TransactionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-api/src/main/java/com/example/auction/transaction/api/TransactionSummary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-impl/src/main/java/Module.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-impl/src/main/java/com/example/auction/transaction/impl/DeliveryData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-impl/src/main/java/com/example/auction/transaction/impl/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-impl/src/main/java/com/example/auction/transaction/impl/PaymentStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-impl/src/main/java/com/example/auction/transaction/impl/Transaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-impl/src/main/java/com/example/auction/transaction/impl/TransactionCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-impl/src/main/java/com/example/auction/transaction/impl/TransactionEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-impl/src/main/java/com/example/auction/transaction/impl/TransactionEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-impl/src/main/java/com/example/auction/transaction/impl/TransactionMappers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-impl/src/main/java/com/example/auction/transaction/impl/TransactionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-impl/src/main/java/com/example/auction/transaction/impl/TransactionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-impl/src/main/java/com/example/auction/transaction/impl/TransactionState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-impl/src/main/java/com/example/auction/transaction/impl/TransactionStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-impl/src/main/resources/application.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-impl/src/test/java/com/example/auction/transaction/impl/TransactionEntityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-impl/src/test/java/com/example/auction/transaction/impl/TransactionRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/transaction-impl/src/test/java/com/example/auction/transaction/impl/TransactionServiceImplIntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/user-api/src/main/java/com/example/auction/user/api/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/user-api/src/main/java/com/example/auction/user/api/UserLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/user-api/src/main/java/com/example/auction/user/api/UserRegistration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/user-api/src/main/java/com/example/auction/user/api/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/user-impl/src/main/java/Module.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/user-impl/src/main/java/com/example/auction/user/impl/Mappers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/user-impl/src/main/java/com/example/auction/user/impl/PUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/user-impl/src/main/java/com/example/auction/user/impl/PUserCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/user-impl/src/main/java/com/example/auction/user/impl/PUserEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/user-impl/src/main/java/com/example/auction/user/impl/PUserEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/user-impl/src/main/java/com/example/auction/user/impl/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/user-impl/src/main/java/com/example/auction/user/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/user-impl/src/main/resources/application.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/user-impl/src/test/java/com/example/auction/user/impl/UserEntityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/user-impl/src/test/java/com/example/auction/user/impl/UserRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/user-impl/src/test/java/com/example/auction/user/impl/UserServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/java/Module.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/java/controllers/AbstractController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/java/controllers/AnonymousBid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/java/controllers/BidForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/java/controllers/CreateUserForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/java/controllers/Currency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/java/controllers/DeliveryDetailsForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/java/controllers/DeliveryPriceForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/java/controllers/Durations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/java/controllers/ItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/java/controllers/ItemForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/java/controllers/LoginForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/java/controllers/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/java/controllers/Nav.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/java/controllers/OfflinePaymentForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/java/controllers/ProfileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/java/controllers/SearchController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/java/controllers/SearchItemForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/java/controllers/TransactionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/java/controllers/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/java/controllers/package.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/public/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/public/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/resources/application.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/resources/messages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/resources/routes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/twirl/views/createItem.scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/twirl/views/createUser.scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/twirl/views/deliveryDetails.scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/twirl/views/deliveryPrice.scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/twirl/views/editItem.scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/twirl/views/foundationFieldConstructor.scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/twirl/views/foundationForm.scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/twirl/views/hiddenInput.scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/twirl/views/index.scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/twirl/views/item.scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/twirl/views/login.scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/twirl/views/main.scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/twirl/views/myItems.scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/twirl/views/myTransactions.scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/twirl/views/paginate.scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/twirl/views/paymentDetails.scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/twirl/views/searchItem.scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../online-auction-java-master/web-gateway/src/main/twirl/views/transaction.scala.html" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-469431094">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="148" />
+          <entry key="xml" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="148" />
+          <entry key="XML" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="graphqls" value="2" />
+          <entry key="iml" value="2" />
+          <entry key="java" value="3" />
+          <entry key="jsp" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="2" />
+          <entry key="JAVA" value="3" />
+          <entry key="JSP" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/howtographql/GraphQLEndpoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/schema.graphqls">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/howtographql/Link.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+              <folding>
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/howtographql/LinkRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/howtographql/GraphQLEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/schema.graphqls" />
+        <option value="$PROJECT_DIR$/src/main/java/howtographql/Link.java" />
+        <option value="$PROJECT_DIR$/src/main/java/howtographql/LinkRepository.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="20" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="graphqlsample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graphqlsample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graphqlsample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graphqlsample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graphqlsample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graphqlsample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graphqlsample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graphqlsample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graphqlsample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graphqlsample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="howtographql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graphqlsample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graphqlsample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536294137837" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../graphql" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2797d6fb-e011-4068-a346-f5e945eec770" name="Default Changelist" comment="" />
+      <created>1536235938608</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536235938608</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="936" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/graphqlsample.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/howtographql/GraphQLEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/schema.graphqls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/howtographql/Link.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding>
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/howtographql/LinkRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>graphqlsample</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.esotericsoftware:reflectasm:1.11.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

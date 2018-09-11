@@ -6,6 +6,8 @@ import models.Book;
 import repository.AuthorRepository;
 import repository.BookRepository;
 
+import java.util.Optional;
+
 
 public class Mutation implements GraphQLMutationResolver {
 
@@ -28,7 +30,7 @@ public class Mutation implements GraphQLMutationResolver {
     }
 
     public Book newBook(String title, String isbn, Integer pageCount, Long authorId) {
-        Book book = new Book(authorId);
+        Book book = new Book();
         book.setAuthor(new Author(authorId));
         book.setTitle(title);
         book.setIsbn(isbn);
@@ -48,8 +50,8 @@ public class Mutation implements GraphQLMutationResolver {
 
     public Book updateBookPageCount (Integer pageCount, Long id) {
 
-        Book b = new Book(id);
-        Book book = bookRepository.findOne(b);
+        Optional<Book> optionalBook = bookRepository.findById(id);
+        Book book = optionalBook.get();
         book.setPageCount(pageCount);
         bookRepository.save(book);
         return book;

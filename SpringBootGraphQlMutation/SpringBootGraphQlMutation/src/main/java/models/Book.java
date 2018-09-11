@@ -6,8 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import javax.persistence.*;
 
 @Entity
-@NoArgsConstructor
-@AllArgsConstructor
 @EqualsAndHashCode
 @ToString
 public class Book {
@@ -22,7 +20,13 @@ public class Book {
     @ManyToOne
     private Author author;
 
-    public Book(Long id) {
+    public Book() {
+    }
+
+    public Book(String title, String isbn, int pageCount) {
+        this.title = title;
+        this.isbn = isbn;
+        this.pageCount = pageCount;
     }
 
     public Long getId() {

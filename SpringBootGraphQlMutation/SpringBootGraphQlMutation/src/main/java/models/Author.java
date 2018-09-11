@@ -7,11 +7,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-@Getter
-@Setter
-@AllArgsConstructor
-@RequiredArgsConstructor
-@NoArgsConstructor
 @EqualsAndHashCode
 @Entity
 public class Author {
@@ -24,6 +19,11 @@ public class Author {
 
     public Author(Long id) {
         this.id = id;
+    }
+
+    public Author(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
     }
 
     public Author() {
